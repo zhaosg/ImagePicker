@@ -1,12 +1,12 @@
 //
-//  SOSPicker.m
+//  SOSImagePicker.m
 //  SyncOnSet
 //
 //  Created by Christopher Sullivan on 10/25/13.
 //
 //
 
-#import "SOSPicker.h"
+#import "SOSImagePicker.h"
 
 
 #import "GMImagePickerController.h"
@@ -17,12 +17,12 @@
 typedef enum : NSUInteger {
     FILE_URI = 0,
     BASE64_STRING = 1
-} SOSPickerOutputType;
+} SOSImagePickerOutputType;
 
-@interface SOSPicker () <GMImagePickerControllerDelegate>
+@interface SOSImagePicker () <GMImagePickerControllerDelegate>
 @end
 
-@implementation SOSPicker
+@implementation SOSImagePicker
 
 @synthesize callbackId;
 

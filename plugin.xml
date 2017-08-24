@@ -24,7 +24,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="ImagePicker">
-                <param name="ios-package" value="SOSPicker"/>
+                <param name="ios-package" value="SOSImagePicker"/>
             </feature>
         </config-file>
         
@@ -33,8 +33,8 @@
           <string>$PHOTO_LIBRARY_USAGE_DESCRIPTION</string>
         </config-file>
 
-        <header-file src="src/ios/SOSPicker.h" />
-        <source-file src="src/ios/SOSPicker.m" />
+        <header-file src="src/ios/SOSImagePicker.h" />
+        <source-file src="src/ios/SOSImagePicker.m" />
 
         <header-file src="src/ios/GMImagePicker/UIImage+fixOrientation.h" />
         <source-file src="src/ios/GMImagePicker/UIImage+fixOrientation.m" />

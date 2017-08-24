@@ -1,5 +1,5 @@
 //
-//  SOSPicker.h
+//  SOSImagePicker.h
 //  SyncOnSet
 //
 //  Created by Christopher Sullivan on 10/25/13.
@@ -9,7 +9,7 @@
 #import <Cordova/CDVPlugin.h>
 
 
-@interface SOSPicker : CDVPlugin < UINavigationControllerDelegate, UIScrollViewDelegate>
+@interface SOSImagePicker : CDVPlugin < UINavigationControllerDelegate, UIScrollViewDelegate>
 
 @property (copy)   NSString* callbackId;
 
